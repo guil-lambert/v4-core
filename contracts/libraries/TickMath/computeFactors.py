@@ -1,5 +1,5 @@
 from decimal import *
-
+getcontext().prec = 1000
 # Source: https://www.geeksforgeeks.org/divide-large-number-represented-string/#
 
 # Python3 program to implement division
@@ -117,6 +117,6 @@ for i in range(21):
 17 0x2216e584f5fa1ea926041bedeaf4
 18 0x48a170391f7dc42444e7be7
 19 0x149b34ee7aaee0
-
+'''
 
 
